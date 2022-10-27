@@ -31,7 +31,9 @@
 //   }
 // }
 class Stack{
-    constructor(){this.items = []}
+    constructor(){
+        this.items = []
+    }
 	push(value) {
         this.items.push(value)
         return true
