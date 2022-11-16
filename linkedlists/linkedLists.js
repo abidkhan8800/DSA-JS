@@ -112,7 +112,7 @@ function LinkedList(){
                 current = current.next
             }
 
-            console.log(output.toString())
+            console.log(output.join("->"))
         };
 
         this.print = function(){
@@ -125,7 +125,8 @@ function LinkedList(){
                 current = current.next
             }
 
-            console.log(output.toString())
+            console.log(output.join("->"))
+            return
         };
 
         this.getHead = function (){
@@ -134,27 +135,28 @@ function LinkedList(){
 }
 
 const ll = new LinkedList();
+module.exports = ll;
 
 
 
-ll.append(6); 
-ll.append(5);
-ll.append(7);
-ll.append(8);
-ll.append(2);
-ll.append(4);
-ll.append(16);
-ll.append(25);
-ll.append(47);
-ll.append(85);
-ll.append(25);
-ll.append(34);
-ll.print()
-// ll.removeAt()
-// ll.remove()
-// ll.remove()
-ll.remove(47)
-// ll.insert(11, 1000)
-ll.print()
+// ll.append(6); 
+// ll.append(5);
+// ll.append(7);
+// ll.append(8);
+// ll.append(2);
+// ll.append(4);
+// ll.append(16);
+// ll.append(25);
+// ll.append(47);
+// ll.append(85);
+// ll.append(25);
+// ll.append(34);
+// ll.print()
+// // ll.removeAt()
+// // ll.remove()
+// // ll.remove()
+// ll.remove(47)
+// // ll.insert(11, 1000)
+// ll.print()
 
-console.log(ll.getHead());
+// console.log(ll.getHead());
