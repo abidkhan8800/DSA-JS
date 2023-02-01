@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abidkhan8800/DSA-JS/issues"
   },
-  "homepage": "https://github.com/abidkhan8800/DSA-JS#readme"
+  "homepage": "https://github.com/abidkhan8800/DSA-JS#readme",
+  "dependencies": {
+    "jsdoc": "^4.0.0"
+  }
 }
