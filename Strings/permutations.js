@@ -1,3 +1,9 @@
+/**
+ * 
+ * @param {String} str1 
+ * @param {String} str2 
+ * @returns {Boolean}
+ */
 function permutation1(str1, str2){
     if(str1.length != str2.length) return false;
     let arr = new Array(256).fill(0);
@@ -16,4 +22,5 @@ function permutation1(str1, str2){
     }
 }
 
-console.log(permutation1("aaacbbb","aaaabbb"))
+console.log(permutation1("aaaabbb","aaaabbb"))
+console.log(permutation1("aacabbb","aaaabbb"))
