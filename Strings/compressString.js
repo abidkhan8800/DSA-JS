@@ -24,3 +24,4 @@ function compressString(str){
 }
 
 console.log(compressString("aannfbbaabbbcc"))
+console.log(compressString("annfbbaabbbc"))
