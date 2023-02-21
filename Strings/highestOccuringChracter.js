@@ -1,3 +1,9 @@
+/**
+ * 
+ * @param {String} str 
+ * @returns {Char}
+ */
+
 function highestOcurringCharacter(str){
     let obj = {};
     let char;
